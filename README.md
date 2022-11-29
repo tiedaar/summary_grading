@@ -1,6 +1,6 @@
 # Intelligent Textbook
 This is a repository of code for automatic summary evaluation. Specifically, it contains the source code used to develop transormer models that can predict human scores of summaries. This was developed as part of a larger project to develop an intelligent textbook, one which is responsive to the needs of the user and provides adaptive feedback and tutoring.
-![elements of textbook](elements_of_textbook.png)
+![elements of textbook](book.png)
 
 ## Prototype
 To create our first prototype, we are using the OpenStax textbook on Macroeconomics. We chose OpenStacks because it is a free and open source repository of electronic textbooks. Additionally, all of the OpenStax textbooks are formatted in a broadly similar way. Thus, the intelligent element of the textbook should be modular and able to apply to any of the OpenStax library. The original textbook on Macroeconomics can be found [here](https://openstax.org/books/principles-macroeconomics-ap-courses-2e/pages/1-introduction). Our prototype based off of this textbook can be found [here](https://textbook-demo.web.app/module-1/chapter-1/section-1/). Please be aware that we are still in the very early stages.
