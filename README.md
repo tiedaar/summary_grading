@@ -1,3 +1,5 @@
+![textbook_beginning](textbook_beginning.png)
+
 # Intelligent Textbook
 This is a repository of code for automatic summary evaluation. Specifically, it contains the source code used to develop transormer models that can predict human scores of summaries. This was developed as part of a larger project to develop an intelligent textbook, one which is responsive to the needs of the user and provides adaptive feedback and tutoring.
 ![elements of textbook](book.png)
