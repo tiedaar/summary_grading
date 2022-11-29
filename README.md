@@ -31,3 +31,11 @@ Both the [content](https://huggingface.co/tiedaar/summary-longformer-content) an
 ### Improving the accuracy
 * Domain adaptation might help
 * We can use an unlabeled corpus of around 90,000 summaries from CommonLit.
+
+## Resources
+* [Huggingface model doc for Longformer](https://huggingface.co/docs/transformers/model_doc/longformer)
+* Beltagy, I., Peters, M. E., & Cohan, A. (2020). Longformer: The Long-Document Transformer (arXiv:2004.05150). arXiv. https://doi.org/10.48550/arXiv.2004.05150
+* Botarleanu, R.-M., Dascalu, M., Allen, L. K., Crossley, S. A., & McNamara, D. S. (2022). Multitask Summary Scoring with Longformers. In M. M. Rodrigo, N. Matsuda, A. I. Cristea, & V. Dimitrova (Eds.), Artificial Intelligence in Education (Vol. 13355, pp. 756–761). Springer International Publishing. https://doi.org/10.1007/978-3-031-11644-5_79
+* Crossley, S. A., Kim, M., Allen, L., & McNamara, D. (2019). Automated Summarization Evaluation (ASE) Using Natural Language Processing Tools. In S. Isotani, E. Millán, A. Ogan, P. Hastings, B. McLaren, & R. Luckin (Eds.), Artificial Intelligence in Education (Vol. 11625, pp. 84–95). Springer International Publishing. https://doi.org/10.1007/978-3-030-23204-7_8
+* Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. https://doi.org/10.48550/ARXIV.1810.04805
+* Tunstall, L., von Werra, L., & Wolf, T. (2022). Natural Language Processing with Transformers, Revised Edition. https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/
