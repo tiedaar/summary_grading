@@ -42,4 +42,4 @@ Both the [content](https://huggingface.co/tiedaar/summary-longformer-content) an
 * Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., & Stoyanov, V. (2019). Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692.
 
 ## Video
-[![IMAGE ALT TEXT HERE]([movie](https://www.img.youtube.com/watch?v=WZxqA_x39I4)/0.jpg)]([[https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=WZxqA_x39I4)]
+[Video Link Here](https://www.youtube.com/watch?v=WZxqA_x39I4)
