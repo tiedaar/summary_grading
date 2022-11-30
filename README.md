@@ -11,6 +11,7 @@ To create our first prototype, we are using the OpenStax textbook on Macroeconom
 As a first step toward our intelligent textbook, we created a feature where the student writes a short summary at the end of each chapter. These summaries, between 50 and 200 words, will be graded automatically by two pretrained transformer models. These models were finetuned using 4,690 summaries collated by Botarleanu et. al. (2022). These summaries were graded by expert human raters on six criteria. The dimensionality was reduced to two using a principle component analysis:
 * Details, main point, and cohesion were combined into a weighted score called **Content**.
 * Paraphrasing, objective language use, and language beyond the source were combined into a weighted score designated as **Wording**.
+These scores were z-score normalized so that the mean is zero and each unit is equal to one standard deviation.
 
 ### Grading Summaries using RoBERTa
 We attempted two strategies, the first using a RoBERTa pretrained model where only the summaries were used to predict the score. This technique was surprisingly effective, especially in Content where it achieved an R<sup>2</sup> of 0.67 when predicting scores against the test group. However, in wording the model only achieved an R<sup>2</sup> of 0.36. This may have been largely because some summaries that appeared high-quality were actually plagiarized and had a low score from the human raters. Because this model was naive to the source, it was not able to catch plagiarism when it arose.
